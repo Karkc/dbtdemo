@@ -11,9 +11,9 @@
 
 with source_data as (
 
-    select 1 as id
+    select 1 as id, 'first dbt code'
     union all
-    select null as id
+    select null as id, 'first dbt code'
 
 )
 
