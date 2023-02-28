@@ -11,9 +11,11 @@
 
 with source_data as (
 
-    select 1 as id, 'first dbt code'
+    select 1 as id, 'first dbt code1'
     union all
-    select null as id, 'first dbt code'
+    select 2 as id, 'first dbt code2'
+    union all
+    select null as id, 'first dbt code3'
 
 )
 
