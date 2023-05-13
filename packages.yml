@@ -1,1 +1,3 @@
-- git: "https://github.com/Datavault-UK/dbtvault"
+packages:
+  
+  - git: "https://github.com/Datavault-UK/dbtvault"
