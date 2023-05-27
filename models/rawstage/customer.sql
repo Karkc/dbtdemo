@@ -1,1 +1,1 @@
-select * from {{ var("sorce_db").("source_sch").("source_table")}}
+select * from {{ var("source_db").("source_sch").("source_table")}}
