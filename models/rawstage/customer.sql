@@ -1,1 +1,4 @@
-select * from {{ var("source_db").("source_sch").("source_table")}}
+
+
+
+select * from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.CUSTOMER

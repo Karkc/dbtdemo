@@ -11,6 +11,8 @@ vars:
     source_sch: "TPCH_SF1"
     source_table: "CUSTOMER"
 
+
+
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
@@ -37,5 +39,8 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     example:
+      materialized: view
+      schema: staging_new
+    rawstage:
       materialized: view
       schema: staging_new
